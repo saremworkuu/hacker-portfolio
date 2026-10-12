@@ -11,9 +11,12 @@ export const metadata: Metadata = {
   title: "Sarendem Worku - Cyber Security and Web Engineer",
   description:
     "Cyber Security and Web Engineer Portfolio - Passionate about CTFs, bug bounties, and building secure web applications.",
-  generator: "v0.app",
   icons: {
     icon: [
+      {
+        url: "/icon.svg",
+        type: "image/svg+xml",
+      },
       {
         url: "/icon-light-32x32.png",
         media: "(prefers-color-scheme: light)",
@@ -21,10 +24,6 @@ export const metadata: Metadata = {
       {
         url: "/icon-dark-32x32.png",
         media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
       },
     ],
     apple: "/apple-icon.png",
